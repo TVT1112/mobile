@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tên ứng dụng của bạn</string>
+    <string name="healthcare_24_7">24/7 chăm sóc sức khỏe</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="register_title">Đăng ký</string>
+    <string name="login_button">Đăng nhập</string>
+</resources>
