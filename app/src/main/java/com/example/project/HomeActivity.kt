@@ -44,5 +44,11 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, FindDoctorActivity::class.java)
             startActivity(intent);
         }
+
+        val labTest: CardView = findViewById(R.id.cardLabTest)
+        labTest.setOnClickListener{
+            val intent = Intent(this, LabTestActivity::class.java)
+            startActivity(intent);
+        }
     }
 }

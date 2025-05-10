@@ -65,7 +65,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Đặt phòng khám"
+                    android:text="Các gói dịch vụ"
                     android:textAlignment="center"
                     android:textColor="@color/colorRed">
 
@@ -145,7 +145,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Liên lạc với bác sĩ"
+                    android:text="Đặt phòng khám"
                     android:textAlignment="center"
                     android:textColor="@color/colorRed">
 

@@ -30,7 +30,7 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
 
-        edUsername = findViewById(R.id.editRegUsername);
+        edUsername = findViewById(R.id.editRegFullName);
         edPassword = findViewById(R.id.editRegPassword);
         edEmail = findViewById(R.id.editRegEmail);
         edConfirmPassword= findViewById(R.id.editRegConfirmPassword);
