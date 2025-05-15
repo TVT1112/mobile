@@ -5,11 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
-    tools:context=".LabTestActivity">
+    android:background="@drawable/back1"
+    tools:context=".LabTestDetailsActivity">
 
     <TextView
-        android:id="@+id/textViewLTname"
+        android:id="@+id/textViewLTDname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/healthcare_24_7"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textViewLTTitle"
+        android:id="@+id/textViewLTDLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vị trí"
@@ -34,61 +34,76 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLTname"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLTDname"
         app:layout_constraintVertical_bias="0.018" />
 
 
     <TextView
-        android:id="@+id/textViewLTTitle2"
+        android:id="@+id/textViewLTDPackageName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Các gọi dịch vụ"
         android:textColor="@color/yellowLight"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLTDname"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textViewtLTDTotalcost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng"
+        android:textColor="@color/yellowLight"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLTDname"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <EditText
+        android:id="@+id/editTextLTDTextMultiLine"
+        android:layout_width="310dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="Hi /n Hello"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLTDPackageName"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonLTDAddtoCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:text="Thêm vào giỏ hàng"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLTname"
-        app:layout_constraintVertical_bias="0.071" />
-
-    <ListView
-        android:id="@+id/listViewLT"
-        android:layout_width="350dp"
-        android:layout_height="500dp"
-        android:layout_margin="10dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLTTitle2"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/buttonLTCart"
+        android:id="@+id/buttonLTDBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Vào giỏ hàng"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/buttonLTBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="32dp"
         android:text="Thoát"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

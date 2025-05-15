@@ -154,7 +154,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardHealthdoctor"
+            android:id="@+id/cardHealChatbot"
             android:layout_width="99dp"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -185,7 +185,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bài viết sức khỏe"
+                    android:text="Tư vấn với AI"
                     android:textAlignment="center"
                     android:textColor="@color/colorRed">
 
